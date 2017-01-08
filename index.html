@@ -50,7 +50,7 @@
 				<div class="doze colunas">
 					<h1 class="section titulo">Habilidades</h1>
 				</div>
-				<div class="quatro colunas">
+				<div class="quatro colunas espaco-baixo">
 					 <span class="fa-stack fa-4x">
                     	<i class="fa fa-circle fa-stack-2x text-primary icon circulo"></i>
                         <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
@@ -58,7 +58,7 @@
                     <h4 class="icon titulo">Design Responsivo</h4>
                     <p class="icon descricao">Desenvolvimento de aplicações responsivas</p>
 				</div>
-				<div class="quatro colunas">
+				<div class="quatro colunas espaco-baixo">
 					 <span class="fa-stack fa-4x">
                     	<i class="fa fa-circle fa-stack-2x text-primary icon circulo"></i>
                         <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
@@ -66,7 +66,7 @@
                     <h4 class="icon titulo">Html5/Css3</h4>
                     <p class="icon descricao">Html5, Css3 e frameworks como o bootstrap.</p>
 				</div>
-				<div class="quatro colunas">
+				<div class="quatro colunas espaco-baixo">
 					 <span class="fa-stack fa-4x">
                     	<i class="fa fa-circle fa-stack-2x text-primary icon circulo"></i>
                         <i class="fa fa-code fa-stack-1x fa-inverse"></i>
@@ -163,9 +163,15 @@
 				document.querySelector('.nav.menu').classList.toggle('aberto');
 			});
 			//menu script
-			typeWriter("#front","true",100);
 
+			function escreve(){
+				typeWriter("#front","true",100);
+				document.getElementById("front").innerHTML = "Desing Responsivo";
+				console.log("aushuas");
+				typeWriter("#front","true",100);
+			}
 
+			setInterval(escreve(), 1000);
 		});
 	</script>
 </body>
