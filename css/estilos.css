@@ -1,0 +1,211 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.linha {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+label {
+	color: #E0F2F1;
+}
+
+.espaco-topo {
+	padding-top: 5rem;
+}
+
+.espaco-baixo {
+	padding-bottom: 6rem;
+}
+
+.container {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 400px){
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		padding-left: .2rem;
+		padding-right: .2rem;
+	}
+}
+
+/* navegação */
+
+nav.nav {
+	position: fixed;
+	background-color: #009688;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.26);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,.26);
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+	width: 100%;
+	z-index: 1;
+}
+
+.nav.hamburguer {
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.nav.logo {
+	display: inline-block;
+	padding: 1rem 0 .3rem;
+}
+
+.nav.link {
+	display: block;
+	color: #555;
+	text-decoration: none;
+	padding: 2.5rem;
+	padding-left: 0;
+	color: white;
+}
+
+.nav.menu {
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: all ease-in-out .6s;
+	-o-transition: all ease-in-out .6s;
+	transition: all ease-in-out .6s;
+}
+
+.nav.menu.aberto {
+	max-height: 30rem;
+}
+
+/* header */
+
+header {
+    color: white;
+}
+
+.header.titulo {
+	margin: 0;
+	color: #009688;
+}
+
+.header.subtitulo {
+	margin-top: 0;
+	font-weight: 100;
+	color: #c5cae9;
+
+}
+
+.titulos {
+	text-align: center;
+	margin-top: 5rem;
+}
+
+/* section middle */
+
+.middle.section {
+	text-align: center;
+	background-color: #009688;
+}
+
+.section.titulo {
+	color: #E0F2F1
+;
+}
+
+.icon.circulo {
+	color: #a94442;
+}
+
+.icon.titulo, .icon.descricao {
+	color: #E0F2F1;
+}
+
+/* about */
+
+.sobre {
+	text-align: center;
+}
+
+.sobre > h4 {
+	margin: 0
+}
+
+.sobre.titulo {
+	color: #4DB6AC;
+}
+
+.sobre.subtitulo {
+	color: #fff;
+	position: relative;
+    top: -10rem;
+    transition: all 1s ease;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 5px #000;
+    margin: 0;
+}
+
+/* contato */
+section.contato {
+	background-color: #a94442;
+}
+.contato.titulo {
+	text-align: center;
+	color: #E0F2F1;
+}
+
+/* rodape */
+
+.rodape {
+	background-color: #333;
+	color: #fff;
+}
+
+
+.rodape.links {
+	text-align: center;
+}
+
+.rodape.social {
+	text-align: center;
+	padding-right: 1em;
+}
+
+.rodape.social li {
+	display: inline-block;
+	text-align: center;
+}
+
+.rodape.links li {
+	list-style: none;
+	font-size: 2rem;
+	font-weight: lighter;
+}
+
+.social.icon {
+	color: white;
+	font-size: 2em;
+	padding-left: 2rem;
+}
+.rodape.link {
+	text-decoration: none;
+	color: white;
+}
+
+.rodape.info {
+	color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: .6em;
+}
+
+.seis.colunas {
+	margin: 0 auto;
+}
+
+.form-center {
+	margin: 0 auto;
+}
